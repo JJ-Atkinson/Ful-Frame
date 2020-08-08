@@ -12,7 +12,8 @@
 
 (comp/defsc ChildNID [_ _]
   {:query [:chi-nid/a
-           {:chi-nid/b [:...]}]})
+           {:chi-nid/b [:...]}
+           :par/a]})
 
 (comp/defsc Parent [_ _]
   {:query [:par/a
